@@ -1,0 +1,76 @@
+.left {
+    flex: 1;
+    margin: 1% 0.5% 1% 1%;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 6px solid black;
+    border-radius: 6px;
+
+    background-color: aliceblue;
+}
+
+.left ul {
+    margin-left: 33px;
+}
+
+.left ul input {
+    width: 333px;
+}
+
+.left h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 33px;
+}
+
+.left h2 {
+    font-size: 2.6rem;
+}
+
+.left .heading {
+    display: flex;
+
+    margin-bottom: 22px;
+
+}
+
+.heading button {
+    width: 44px;
+    margin-right: 12px;
+
+    border: 3px solid black;
+    border-radius: 6px;
+
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.left .leftInfo,
+.left .leftEducation,
+.left .leftExperience {
+    margin-bottom: 33px;
+
+    font-size: 1.3rem
+}
+
+.left .leftInfo button,
+.left .leftEducation button,
+.left .leftExperience button {
+    height: 33px;
+    width: 77px;
+
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 22px;
+    margin-top: 11px;
+}
+
+.left input {
+    height: 22px;
+    font-size: 1rem;
+}
